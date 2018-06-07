@@ -1,0 +1,612 @@
+/*myCSS for files: Index, Portfolio, and Contact */
+
+/**************************************/
+
+.wrapper {
+
+    width: 960px;
+    height: 670px;
+    margin: 0 auto;
+    background-image: url("../images/seamless_paper_texture.png");
+}
+
+
+.header {
+
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    width: 1230px;
+    float: left;
+}
+
+.name {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: white;
+    font-size: 22px;
+    background-color: #4aaaa5;
+    float: left;
+    padding: 20px;
+    margin-left: 127px;
+    margin-top: 22px;
+}
+
+
+.page-shortcuts {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    float: right;
+    margin-top: 67px;
+    margin-right: 230px;
+    float: right;
+    width: 270px;
+    text-decoration: none;
+}
+
+
+
+
+.About-button {
+    float: left;
+    color: #777777;
+    margin-right: 12px;
+    text-decoration: none;
+}
+
+
+.Portfolio-button {
+
+    float: left;
+    color: #777777;
+    margin-right: 13px;
+    text-decoration: none;
+}
+
+
+
+
+.Contact-button {
+
+    float: left;
+    color: #777777;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.headerline {
+    float: left;
+    display: block; height: 0px;
+    color: #777777;
+    border: 100px;
+    width: 240px;
+    margin-left: 28px;
+    margin-bottom: 25px;
+}
+
+
+
+
+.content {
+    float: left;
+    border: 1px solid #dddddd;
+    width: 490px;
+    height: 325px;
+    color: #777777;
+    background-color: #ffffff;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+
+    margin-top: 50px;
+    margin-left: 125px;
+    margin-bottom: 75px;
+    align-content: center;
+    float: left;
+}
+
+.Contact {
+    color: #4aaaa5;
+    height: 170px;
+    float: left;
+    width: 270px;
+    background-color: #ffffff;
+    text-align: center;
+    border: 1px solid #dddddd;
+    padding: 1px;
+    padding-top: 38px;
+    margin-right: 5px;
+    margin-left: 36px;
+    margin-top: 50px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-size: 25px;
+}
+
+.connect-line {
+
+    display: block; height: 1px;
+    color: #777777;
+    border: 5px;
+    width: 220px;
+    margin-left: 28px;
+    margin-bottom: 25px;
+}
+
+
+
+.hover:hover {
+    background-color: yellow;
+    height: 60px;
+    width: 270px;
+}
+
+
+.about-me {
+
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #4aaaa5;
+    font-size: 25px;
+}
+
+
+
+.about-line {
+    display: block; height: 5px;
+    color: #777777;
+    border: 50px;
+    width: 400px;
+    margin-left: 31px;
+}
+
+
+.profile-picture {
+
+    margin-left: 30px;
+}
+
+
+
+.paragraphs {
+
+    margin-right: 45px;
+}
+
+
+
+
+
+
+.teal-footer-line {
+
+    float: left;
+    background-color: #4aaaa5;
+    height: 9px;
+    width: 960px;
+}
+
+
+
+.site-footer,
+.page-wrap:after {
+    height: 100px;
+    margin-top: -1000px;
+}
+
+
+.site-footer {
+    clear: both;
+    overflow: auto;
+    width: 940px;
+
+
+    color: #ffffff;
+    background-color: #666666;
+
+    padding: 10px;
+    color: #D3D3D3;
+
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Portfolio Page CSS*/
+
+
+/****************************************/
+
+.portfolio-wrapper {
+    position: relative;
+    width: 960px;
+    height: 1300px;
+    margin: 0 auto;
+    background-image: url("../images/seamless_paper_texture.png");
+}
+
+
+
+
+
+.portfolio-content {
+    float: left;
+    border: 1px solid #dddddd;
+    width: 495px;
+    height: 940px;
+    color: #777777;
+    background-color: #ffffff;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+
+    margin-top: 50px;
+    margin-left: 125px;
+    margin-bottom: 75px;
+
+
+    align-content: center;
+    float: left;
+}
+
+
+
+
+
+.portfolio-name {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: white;
+    font-size: 25px;
+    background-color: #4aaaa5;
+    float: left;
+    padding: 20px;
+    margin-left: 125px;
+    margin-top: 22px;
+}
+
+
+
+
+.portfolio-page-shortcuts {
+
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    float: right;
+    margin-top: 65px;
+    margin-right: 325px;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.portfolio-title {
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #4aaaa5;
+    font-size: 25px;
+}
+
+
+
+
+.portfolio-line {
+    display: block; height: 5px;
+    color: #777777;
+    border: 50px;
+    width: 438px;
+    margin-left: 30px;
+}
+
+
+
+
+.hangman {
+    float: left;
+    margin-left: 30px;
+    position: absolute;
+}
+
+
+
+
+.hangman-text {
+    text-align: center;
+    position: absolute;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: white;
+    font-size: 15px;
+    background-color: #4aaaa5;
+    padding: 12px;
+    padding-top: 20px;
+    margin-left: 30px;
+    margin-top: 168px;
+    z-index: 1;
+    width: 18.3%;
+    float: left;
+}
+
+
+
+
+.rpg-game {
+    float: left;
+    margin-left: 265px;
+    position: absolute;
+}
+
+
+.rpg-text {
+
+    float: left;
+    text-align: center;
+    position: absolute;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: white;
+    font-size: 15px;
+    background-color: #4aaaa5;
+    padding: 12px;
+    padding-top: 20px;
+    margin-left: 265px;
+    margin-top: 167px;
+    z-index: 1;
+    width: 18.3%;
+}
+
+
+
+.trivia-game {
+
+    float: left;
+    margin-top: 300px;
+    margin-left: 32px;
+    position: absolute;
+}
+
+
+.trivia-text {
+
+    float: left;
+    text-align: center;
+    position: absolute;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: white;
+    font-size: 15px;
+    background-color: #4aaaa5;
+    padding: 15px;
+    margin-left: 30px;
+    margin-top: 460px;
+    z-index: 1;
+    width: 17.9%;
+}
+
+
+
+.widget {
+
+    float: left;
+    margin-top: 300px;
+    margin-left: 265px;
+    position: absolute;
+}
+
+
+.widget-text {
+
+    float: left;
+    text-align: center;
+    position: absolute;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: white;
+    font-size: 17px;
+    background-color: #4aaaa5;
+    padding: 7px;
+    margin-left: 265px;
+    margin-top: 455px;
+    z-index: 1;
+    width: 19.5%;
+}
+
+
+
+
+.rock {
+    clear: both;
+    overflow: auto;
+    margin-top: 600px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+
+
+.rock-text {
+
+    text-align: center;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: white;
+    font-size: 15px;
+    background-color: #4aaaa5;
+    padding: 10px;
+    margin-left: 29.9px;
+    margin-top: 770px;
+    z-index: 1;
+    width: 18.8%;
+    position: absolute;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Contact Page CSS*/
+
+
+/************************************/
+
+.contact-wrapper {
+
+
+    width: 960px;
+    height: 950px;
+    margin: 0 auto;
+    background-image: url("../images/seamless_paper_texture.png");
+}
+
+
+.contact-page-shortcuts {
+
+
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    float: right;
+    margin-top: 65px;
+    margin-right: 355px;
+    float: right;
+}
+
+
+
+
+.contact-line {
+    display: block; height: 4px;
+    color: #777777;
+    border: 50px;
+    width: 400px;
+    margin-left: 30px;
+}
+
+
+
+.contact-content {
+
+    float: left;
+    border: 1px solid #dddddd;
+    width: 450px;
+    height: 625px;
+    color: #777777;
+    background-color: #ffffff;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+
+    margin-top: 50px;
+    margin-left: 125px;
+    margin-bottom: 75px;
+
+
+    align-content: center;
+    float: left;
+}
+
+
+
+.contact-title {
+
+    margin-top: 26px;
+    margin-left: 30px;
+    color: #4aaaa5;
+    font-size: 25px;
+}
+
+
+.name-email-message {
+
+    color: #777777;
+    margin-top: 105px;
+    margin-right: 150px;
+    margin-left: 125px;
+    z-index: 1;
+    position: absolute;
+}
+
+
+.name-box {
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+
+.email-box {
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+
+.message-box {
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.submit {
+
+    position: absolute;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: white;
+    font-size: 15px;
+    background-color: #4aaaa5;
+    float: left;
+    padding: 15px;
+    margin-left: 155px;
+    margin-top: 600px;
+    z-index: 1;
+    width: 15%;
+    text-align: center;
+}
